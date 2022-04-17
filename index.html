@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MadLibs</title>
+    <link rel="stylesheet" href="index.css"/>
+</head> 
+<body>
+    <h1>
+        MadLibs by Aaron
+    </h1>
+
+    <div id="container">
+        <img src="madlibs.jpg" alt="kid" />
+        <div id="questions">
+            
+            <label for="input-name"> Enter a Name: </label>
+            <input id="input-name" name="input-name"><br />
+
+            <label for="input-adjective">Enter an Adjective: </label>
+            <input id="input-adjective" name="input-adjective"><br />
+
+            <label for="input-noun">Enter a Noun: </label>
+            <input id="input-noun" name="input-noun"><br />
+
+            <label for="input-adverb"> Enter an Adverb: </label>
+            <input id="input-adverb" name="input-adverb"><br />
+
+            <label for="input-clothing"> Enter a Piece of Clothing: </label>
+            <input id="input-clothing" name="input-clothing"><br />
+
+            <label for="input-celebrity"> Enter a Celebrity: </label>
+            <input id="input-celebrity" name="input-celebrity"><br />
+
+            <label for="input-infinitive"> Enter an Infinitive: </label>
+            <input id="input-infinitive" name="input-infinitive"><br />
+
+            <label for="input-idiom"> Enter an Idiom: </label>
+            <input id="input-idiom" name="input-idiom"><br />
+
+            <label for="input-adjective2"> Enter an Adjective: </label>
+            <input id="input-adjective2" name="input-adjective2"><br />
+
+            <label for="input-emotion"> Enter an Emotion: </label>
+            <input id="input-emotion" name="input-emotion"><br />
+
+            <button id="show-madlib" onclick="MadLibifier()">Show MadLib</button>
+            <p>Source: The Wonderful and Creative Mind of Aaron Bone </p>
+        </div>
+
+        <div id="madlib">
+            <p>
+                <span id="output-name" class="words"></span> was far too <span id="output-adjective" class="words"></span> 
+                to swim in the <span id="output-noun" class="words"> </span>. 
+                When their Mom found out, she <span id="output-adverb" class="words"></span> threw them in anyway.
+                "Sink or Swim!" she called out from the coast line, her silly <span id="output-clothing" class="words"></span> blowing in the wind.
+                They quickly sunk to the bottom, and lifguard, <span id="output-celebrity" class="words"></span>, dived off of the tower <span id="output-infinitive" class="words"></span> them further.
+                People began to cheer from the shore, shouting, " <span id="output-idiom" class="words"></span>." When the lifeguard resurfaced, the crowd was <span id="output-adjective2" class="words"></span>.
+                Mom then began to cry tears of <span id="output-emotion" class="words".></span>.
+            </p>
+            <button id="refresh" onclick="(function(){location.reload();})();">Reset</button>
+        </div>
+    </div>
+
+    <script src='madlib.js'></script>
+
+</body>

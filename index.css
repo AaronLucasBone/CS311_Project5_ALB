@@ -1,0 +1,42 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+}
+
+#madlib{
+    height: 500px;
+    width: 500px;
+    display: none;
+    border: 2px red solid;
+    padding: 10px;
+    text-align: left;
+}
+
+#questions{ 
+    height: 500px;
+    width: 800px;
+    border: 2px black solid;
+}
+
+input, button{
+    font-size: 125%;
+}
+
+.words{
+    color: red;
+    border: 1px blue solid;
+    font-size:125%;
+}
+
+h1{
+    font-size: 300%;
+}
+
+

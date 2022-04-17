@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Craps</title>
+    <link rel="stylesheet" href="craps.css"/>
+</head> 
+<body>
+    <h1>
+        Craps by Aaron
+    </h1>
+
+    <div id="container">
+        
+        <div id="playArea">
+            <img id="d1slot" src="dice1.png" alt="die1" />
+            <img id="d2slot"src="dice1.png" alt="die2" />
+            <p>
+                <label for="input-bet"> Enter Your Bet: </label>
+                <input id="input-bet" name="input-bet"><br />
+            </p>
+            
+            <p>
+                <label for="balance"> Balance: $</label> 
+                <label id="bankBal"> 1000</label>
+            </p>
+           
+            <button id="roll" onclick="calculateScore()">Roll</button>
+
+            <p id="youW">
+                You Win!
+            </p>
+
+            <p id="youL">
+                You Lose!
+            </p>
+
+            <p id="rA">
+                Roll Again!
+            </p>
+
+    </div>
+    <script src='craps.js'></script>
+</body>
